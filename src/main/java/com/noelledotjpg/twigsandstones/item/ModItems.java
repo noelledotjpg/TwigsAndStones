@@ -10,11 +10,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TwigsStones.MODID);
 
     public static final DeferredItem<Item> FIRE_STRIKER = ITEMS.register("fire_striker",
-            () -> new Item(new Item.Properties()));
-
-    static {
-        FIRE_STRIKER = ITEMS.register("fire_striker", () -> new Item(new Item.Properties().durability(10).stacksTo(1)));
-    }
+            () -> new FireStrikerItem(new Item.Properties().durability(10).stacksTo(1)));
 
     public static final DeferredItem<Item> TWIG = ITEMS.register("twig",
             () -> new Item(new Item.Properties()));
