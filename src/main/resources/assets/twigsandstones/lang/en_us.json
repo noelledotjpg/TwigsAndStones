@@ -1,7 +1,9 @@
 {
   "itemGroup.twigsandstones": "Example Mod Tab",
   "block.twigsandstones.example_block": "Example Block",
-  "item.twigsandstones.example_item": "Example Item",
+  "item.twigsandstones.fire_striker": "Fire Striker",
+  "item.twigsandstones.pebble": "Pebble",
+  "item.twigsandstones.twig": "Twig",
 
   "twigsandstones.configuration.title": "Twigs & Stones Configs",
   "twigsandstones.configuration.section.twigsandstones.common.toml": "Twigs & Stones Configs",

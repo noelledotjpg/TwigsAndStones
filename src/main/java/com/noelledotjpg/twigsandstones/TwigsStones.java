@@ -1,5 +1,7 @@
 package com.noelledotjpg.twigsandstones;
 
+import com.noelledotjpg.twigsandstones.item.ModItems;
+import com.noelledotjpg.twigsandstones.sound.ModSounds;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -47,9 +49,12 @@ public class TwigsStones {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
+        ModSounds.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
-
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -60,7 +65,13 @@ public class TwigsStones {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.FIRE_STRIKER);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TWIG);
+            event.accept(ModItems.PEBBLE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
