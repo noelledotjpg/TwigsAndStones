@@ -1,9 +1,12 @@
 {
-  "itemGroup.twigsandstones": "Example Mod Tab",
-  "block.twigsandstones.example_block": "Example Block",
   "item.twigsandstones.fire_striker": "Fire Striker",
   "item.twigsandstones.pebble": "Pebble",
   "item.twigsandstones.twig": "Twig",
+
+  "sounds.twigsandstones.fire_striker_use": "Flint gets struck",
+
+  "painting.twigsandstones.introduction.title": "Introduction",
+  "painting.twigsandstones.introduction.author": "noelledotjpg",
 
   "twigsandstones.configuration.title": "Twigs & Stones Configs",
   "twigsandstones.configuration.section.twigsandstones.common.toml": "Twigs & Stones Configs",

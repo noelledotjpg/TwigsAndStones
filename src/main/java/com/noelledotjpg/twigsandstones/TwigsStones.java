@@ -51,7 +51,7 @@ public class TwigsStones {
 
         ModItems.register(modEventBus);
 
-        ModSounds.register(modEventBus);
+        ModSounds.SOUND_EVENTS.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

@@ -33,7 +33,7 @@ public InteractionResult useOn(UseOnContext context) {
     if (blockState1 == null) {
         BlockPos blockPos1 = blockPos.relative(context.getClickedFace());
         if (BaseFireBlock.canBePlacedAt(level, blockPos1, context.getHorizontalDirection())) {
-            level.playSound(player, blockPos1, ModSounds.FIRE_STRIKER_USE.get(), SoundSource.BLOCKS, 1.0F, level.getRandom().nextFloat() * 0.4F + 0.8F);
+            level.playSound(player, blockPos1, ModSounds.FIRE_STRIKER_USE.get(), SoundSource.BLOCKS, 0.8F, level.getRandom().nextFloat() * 0.4F + 0.8F);
             blockState1 = BaseFireBlock.getState(level, blockPos1);
             level.setBlock(blockPos1, blockState1, 11);
             level.gameEvent(player, GameEvent.BLOCK_PLACE, blockPos);
@@ -48,7 +48,7 @@ public InteractionResult useOn(UseOnContext context) {
             return InteractionResult.FAIL;
         }
         } else {
-            level.playSound(player, blockPos, ModSounds.FIRE_STRIKER_USE.get(), SoundSource.BLOCKS, 1.0F, level.getRandom().nextFloat() * 0.4F + 0.8F);
+            level.playSound(player, blockPos, ModSounds.FIRE_STRIKER_USE.get(), SoundSource.BLOCKS, 0.8F, level.getRandom().nextFloat() * 0.4F + 0.6F);
             level.setBlock(blockPos, blockState1, 11);
             level.gameEvent(player, GameEvent.BLOCK_CHANGE, blockPos);
             if (player != null) {

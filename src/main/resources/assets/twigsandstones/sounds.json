@@ -1,0 +1,12 @@
+{
+  "fire_striker_use": {
+    "subtitle": "sounds.twigsandstones.fire_striker_use",
+    "sounds": [
+      {
+        "name": "twigsandstones:fire_striker_use",
+        "type": "file",
+        "volume": 0.8
+      }
+    ]
+  }
+}

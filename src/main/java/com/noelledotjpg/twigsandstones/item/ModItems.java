@@ -13,10 +13,10 @@ public class ModItems {
             () -> new FireStrikerItem(new Item.Properties().durability(10).stacksTo(1)));
 
     public static final DeferredItem<Item> TWIG = ITEMS.register("twig",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(64)));
 
     public static final DeferredItem<Item> PEBBLE = ITEMS.register("pebble",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(64)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
