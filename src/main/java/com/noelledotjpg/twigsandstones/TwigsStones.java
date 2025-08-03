@@ -1,5 +1,7 @@
 package com.noelledotjpg.twigsandstones;
 
+import com.noelledotjpg.twigsandstones.entity.ModEntityTypes;
+import com.noelledotjpg.twigsandstones.item.ModBlocks;
 import com.noelledotjpg.twigsandstones.item.ModItems;
 import com.noelledotjpg.twigsandstones.sound.ModSounds;
 import org.slf4j.Logger;
@@ -49,9 +51,13 @@ public class TwigsStones {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModBlocks.BLOCKS.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         ModSounds.SOUND_EVENTS.register(modEventBus);
+
+        ModEntityTypes.ENTITY_TYPES.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

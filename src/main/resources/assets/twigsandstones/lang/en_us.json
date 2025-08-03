@@ -1,9 +1,10 @@
 {
   "item.twigsandstones.fire_striker": "Fire Striker",
-  "item.twigsandstones.pebble": "Pebble",
-  "item.twigsandstones.twig": "Twig",
+  "block.twigsandstones.pebble": "Pebble",
+  "block.twigsandstones.twig": "Twig",
 
   "sounds.twigsandstones.fire_striker_use": "Flint gets struck",
+  "sounds.twigsandstones.pebble_throw": "Pebble flies",
 
   "painting.twigsandstones.introduction.title": "Introduction",
   "painting.twigsandstones.introduction.author": "noelledotjpg",

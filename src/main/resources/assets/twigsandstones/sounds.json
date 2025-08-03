@@ -9,6 +9,12 @@
       }
     ]
   },
+  "pebble_throw": {
+    "subtitle": "sounds.twigsandstones.pebble_throw",
+    "sounds": [
+      "random/bow"
+    ]
+  },
   "rainy": {
   "sounds": [
     {
