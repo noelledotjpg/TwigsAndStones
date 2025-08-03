@@ -21,7 +21,7 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.TWIG.get(), new Item.Properties()));
 
     public static final DeferredItem<Item> PEBBLE = ITEMS.register("pebble",
-            () -> new PebbleItem(new Item.Properties()));
+            () -> new PebbleItem(ModBlocks.PEBBLE.get(), new Item.Properties()));
 
     public static final DeferredItem<Item> RAINY_AMBIENCE_TAPE = ITEMS.register("rainy_ambience_tape",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.RAINY_KEY).stacksTo(1)));

@@ -1,16 +1,12 @@
 package com.noelledotjpg.twigsandstones.block;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.CarpetBlock;
-import net.minecraft.world.level.block.SupportType;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class TwigBlock extends CarpetBlock {
-    public TwigBlock(Properties properties) {
+public class DetritusBlock extends CarpetBlock {
+    public DetritusBlock(Properties properties) {
         super(properties);
     }
 
