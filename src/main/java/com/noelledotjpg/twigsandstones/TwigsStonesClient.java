@@ -24,6 +24,7 @@ public class TwigsStonesClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
+
         // Some client setup code
         TwigsStones.LOGGER.info("HELLO FROM CLIENT SETUP");
         TwigsStones.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
