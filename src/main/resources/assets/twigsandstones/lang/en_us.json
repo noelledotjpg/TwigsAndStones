@@ -7,9 +7,11 @@
 
   "painting.twigsandstones.introduction.title": "Introduction",
   "painting.twigsandstones.introduction.author": "noelledotjpg",
-
   "painting.twigsandstones.brujita.title": "Brujita",
   "painting.twigsandstones.brujita.author": "StarTropica",
+
+  "item.twigsandstones.rainy_ambience_tape": "Ambience Tape",
+  "item.twigsandstones.rainy_ambience_tape.desc": "Rainy",
 
   "twigsandstones.configuration.title": "Twigs & Stones Configs",
   "twigsandstones.configuration.section.twigsandstones.common.toml": "Twigs & Stones Configs",

@@ -1,7 +1,11 @@
 package com.noelledotjpg.twigsandstones.item;
 
 import com.noelledotjpg.twigsandstones.TwigsStones;
+import com.noelledotjpg.twigsandstones.sound.ModSounds;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.JukeboxPlayable;
+import net.minecraft.world.item.JukeboxSong;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -17,6 +21,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> PEBBLE = ITEMS.register("pebble",
             () -> new Item(new Item.Properties().stacksTo(64)));
+
+    public static final DeferredItem<Item> RAINY_AMBIENCE_TAPE = ITEMS.register("rainy_ambience_tape",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.RAINY_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.twigsandstones.rainy_ambience_tape.desc"
+  },
+  "length_in_seconds": 359.0,
+  "sound_event": "twigsandstones:rainy"
+}

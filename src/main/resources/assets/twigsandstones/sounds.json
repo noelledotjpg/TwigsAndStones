@@ -8,5 +8,13 @@
         "volume": 0.8
       }
     ]
+  },
+  "rainy": {
+  "sounds": [
+    {
+      "name": "twigsandstones:rainy",
+      "stream": true
+    }
+  ]
   }
 }
