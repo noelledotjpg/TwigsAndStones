@@ -18,6 +18,9 @@ public class ModSounds {
 
     public static final Supplier<SoundEvent> FIRE_STRIKER_USE = registerSoundEvent("fire_striker_use");
 
+    public static final Supplier<SoundEvent> PEBBLE_THROW = registerSoundEvent("pebble_throw");
+
+
     public static final Supplier<SoundEvent> RAINY = registerSoundEvent("rainy");
     public static final ResourceKey<JukeboxSong> RAINY_KEY = createSong("rainy");
 

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "twigsandstones:item/twig"
+  },
+  "render_type": "cutout"
+}
