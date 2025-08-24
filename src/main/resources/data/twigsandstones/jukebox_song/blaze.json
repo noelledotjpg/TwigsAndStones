@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.twigsandstones.blaze_ambience_tape.desc"
+  },
+  "length_in_seconds": 150.0,
+  "sound_event": "twigsandstones:blaze"
+}

@@ -17,10 +17,58 @@
   },
   "rainy": {
   "sounds": [
-    {
-      "name": "twigsandstones:rainy",
-      "stream": true
-    }
-  ]
+      {
+        "name": "twigsandstones:rainy",
+        "stream": true
+      }
+    ]
+  },
+  "droplets": {
+    "sounds": [
+      {
+        "name": "twigsandstones:droplets",
+        "stream": true
+      }
+    ]
+  },
+  "shore": {
+    "sounds": [
+      {
+        "name": "twigsandstones:shore",
+        "stream": true
+      }
+    ]
+  },
+  "tick-tock": {
+    "sounds": [
+      {
+        "name": "twigsandstones:tick-tock",
+        "stream": true
+      }
+    ]
+  },
+  "breeze": {
+    "sounds": [
+      {
+        "name": "twigsandstones:breeze",
+        "stream": true
+      }
+    ]
+  },
+  "blaze": {
+    "sounds": [
+      {
+        "name": "twigsandstones:blaze",
+        "stream": true
+      }
+    ]
+  },
+  "crickets": {
+    "sounds": [
+      {
+        "name": "twigsandstones:crickets",
+        "stream": true
+      }
+    ]
   }
 }

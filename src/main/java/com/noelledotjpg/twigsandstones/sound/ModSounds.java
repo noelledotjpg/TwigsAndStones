@@ -24,6 +24,25 @@ public class ModSounds {
     public static final Supplier<SoundEvent> RAINY = registerSoundEvent("rainy");
     public static final ResourceKey<JukeboxSong> RAINY_KEY = createSong("rainy");
 
+    public static final Supplier<SoundEvent> DROPLETS = registerSoundEvent("droplets");
+    public static final ResourceKey<JukeboxSong> DROPLETS_KEY = createSong("droplets");
+
+    public static final Supplier<SoundEvent> SHORE = registerSoundEvent("shore");
+    public static final ResourceKey<JukeboxSong> SHORE_KEY = createSong("shore");
+
+    public static final Supplier<SoundEvent> TICKTOCK = registerSoundEvent("tick-tock");
+    public static final ResourceKey<JukeboxSong> TICKTOCK_KEY = createSong("tick-tock");
+
+    public static final Supplier<SoundEvent> BREEZE = registerSoundEvent("breeze");
+    public static final ResourceKey<JukeboxSong> BREEZE_KEY = createSong("breeze");
+
+    public static final Supplier<SoundEvent> BLAZE = registerSoundEvent("blaze");
+    public static final ResourceKey<JukeboxSong> BLAZE_KEY = createSong("blaze");
+
+    public static final Supplier<SoundEvent> CRICKETS = registerSoundEvent("crickets");
+    public static final ResourceKey<JukeboxSong> CRICKETS_KEY = createSong("crickets");
+
+
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(TwigsStones.MODID, name));
     }

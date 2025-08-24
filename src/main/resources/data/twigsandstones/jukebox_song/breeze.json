@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.twigsandstones.breeze_ambience_tape.desc"
+  },
+  "length_in_seconds": 277.0,
+  "sound_event": "twigsandstones:breeze"
+}

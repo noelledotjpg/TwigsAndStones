@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "twigsandstones:item/tick-tock_ambience_tape"
+  }
+}

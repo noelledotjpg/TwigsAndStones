@@ -71,16 +71,32 @@ public class TwigsStones {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.FIRE_STRIKER);
+
+            event.accept(ModItems.RAINY_AMBIENCE_TAPE);
+            event.accept(ModItems.DROPLETS_AMBIENCE_TAPE);
+            event.accept(ModItems.SHORE_AMBIENCE_TAPE);
+            event.accept(ModItems.TICKTOCK_AMBIENCE_TAPE);
+            event.accept(ModItems.BREEZE_AMBIENCE_TAPE);
+            event.accept(ModItems.BLAZE_AMBIENCE_TAPE);
+            event.accept(ModItems.CRICKETS_AMBIENCE_TAPE);
         }
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TWIG);
             event.accept(ModItems.PEBBLE);
         }
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+
+            event.accept(ModItems.REDSTONE_LANTERN);
+            event.accept(ModItems.REDSTONE_DISPLAY);
+        }
+        if (event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+            event.accept(ModItems.REDSTONE_LANTERN);
+            event.accept(ModItems.REDSTONE_DISPLAY);
+        }
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         // Do something when the server starts

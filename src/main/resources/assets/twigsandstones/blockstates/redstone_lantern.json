@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true":  { "model": "twigsandstones:block/redstone_lantern_on" },
+    "lit=false": { "model": "twigsandstones:block/redstone_lantern_off" }
+  }
+}
